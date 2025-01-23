@@ -1,4 +1,4 @@
-Car Studio 🚗
+# Car Studio 🚗
 
 Car Studio is a cutting-edge web application that lets you immerse yourself in the world of cars like never before. View stunning 3D car models, dive into detailed specifications, and use augmented reality (AR) to place your dream cars in real-world environments.
 
@@ -81,7 +81,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any inquiries or feedback, reach out at:
-- **Email**: yourname@example.com
+
+- **Email**: [yourname@example.com](mailto\:yourname@example.com)
 - **GitHub**: [yourusername](https://github.com/yourusername)
 - **LinkedIn**: [Your Name](https://www.linkedin.com/in/yourprofile)
 
