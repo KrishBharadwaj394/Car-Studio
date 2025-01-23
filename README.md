@@ -14,7 +14,7 @@ Car Studio is a cutting-edge web application that lets you immerse yourself in t
 - **HTML**: For structuring the content of the website.
 - **CSS**: For styling and creating a responsive, modern layout.
 - **JavaScript**: For interactivity and dynamic features.
-- 
+
 ## Installation
 
 1. Clone the repository:
@@ -23,7 +23,7 @@ Car Studio is a cutting-edge web application that lets you immerse yourself in t
    ```
 2. Navigate to the project directory:
    ```bash
-   cd car-studio
+   cd Car-Studio
    ```
 3. Open the index.html file in your browser to view the application.
 
