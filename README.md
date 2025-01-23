@@ -20,34 +20,13 @@ Car Studio is a cutting-edge web application that lets you immerse yourself in t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/car-studio.git
+   git clone https://github.com/KrishBharadwaj394/Car-Studio.git
    ```
 2. Navigate to the project directory:
    ```bash
    cd car-studio
    ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-5. Open your browser and visit:
-   ```
-   http://localhost:3000
-   ```
-
-## Usage
-
-1. Browse the gallery to explore available car models.
-2. Select a car to view its 3D model and detailed specifications.
-3. Use the AR feature to place the car in your environment and visualize it in real-time.
-
-## Screenshots
-
-(Add screenshots of your app here to showcase its interface and features.)
+3. Open the index.html file in your browser to view the application.
 
 ## Contributing
 
@@ -67,21 +46,4 @@ Contributions are welcome! Follow these steps to contribute:
    git push origin feature-name
    ```
 5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Inspiration from modern car exploration apps.
-- Thanks to the open-source community for tools and libraries.
-
-## Contact
-
-For any inquiries or feedback, reach out at:
-
-- **Email**: [yourname@example.com](mailto\:yourname@example.com)
-- **GitHub**: [yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your Name](https://www.linkedin.com/in/yourprofile)
 
