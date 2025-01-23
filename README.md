@@ -11,11 +11,10 @@ Car Studio is a cutting-edge web application that lets you immerse yourself in t
 
 ## Technologies Used
 
-- **React.js**: For building the dynamic and responsive user interface.
-- **Three.js**: For rendering 3D models in a browser.
-- **AR.js / WebXR**: To enable augmented reality features.
-- **Tailwind CSS**: For styling and creating a modern, responsive layout.
-- **Framer Motion**: For smooth animations and transitions.
+- **HTML**: For structuring the content of the website.
+- **CSS**: For styling and creating a responsive, modern layout.
+- **JavaScript**: For interactivity and dynamic features.
+
 
 ## Installation
 
