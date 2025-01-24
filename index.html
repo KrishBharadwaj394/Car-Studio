@@ -133,7 +133,7 @@
     }
 
     div#info-display h3.carname{
-     font-size: 23px;
+     font-size: 22px;
     }
 
     div#info-display p.carinfo{
@@ -175,7 +175,7 @@
       }
 
       div#info-display h3.carname{
-       font-size: 21px;
+       font-size: 20px;
       }
 
      div#info-display p.carinfo{
@@ -221,7 +221,7 @@
       }
 
       div#info-display p.carinfo{
-      font-size: 17px;
+      font-size: 16px;
       }
 
   }
@@ -309,7 +309,7 @@
       <button class="slide" onclick="switchSrc(this, './models/BMW_X6', '2015_BMW_X6', 'BMW X6 2015')" style="background-image: url('./models/BMW_X6/2015_BMW_X6.png');"></button>
 
       <!-- Third Model -->
-      <button class="slide" onclick="switchSrc(this, './models/Hyundai', '2020_Hyundai_Santa', 'Hyundai Santa Fe 2020')" style="background-image: url('./models/Hyundai/2020_Hyundai_Santa.png');"></button>
+      <button class="slide" onclick="switchSrc(this, './models/YangwangU8', 'BYD_Yangwang_U8', 'BYD Yangwang U8')" style="background-image: url('./models/YangwangU8/BYD_Yangwang_U8.png');"></button>
 
       <!-- Fourth Model -->
       <button class="slide" onclick="switchSrc(this, './models/Mercedes', '2020_Mercedes_Benz', 'Mercedes Benz 2020')" style="background-image: url('./models/Mercedes/2020_Mercedes_Benz.png');"></button>
@@ -330,7 +330,7 @@
       <button class="slide" onclick="switchSrc(this, 'models_2/BugattiLaVaiture', '2019_bugatti_la_voiture', 'Bugatti La Voiture Noire')" style="background-image: url('./models_2/BugattiLaVaiture/2019_bugatti_la_voiture.png');"></button>
 
       <!-- Tenth Model -->
-      <button class="slide" onclick="switchSrc(this, 'models_3/RollsRoyce', 'rolls_royce_ghost', 'Rolls Royce Ghost')" style="background-image: url('./models_3/RollsRoyce/rolls_royce_ghost.png');"></button>
+      <button class="slide" onclick="switchSrc(this, 'models_3/FordMustang', 'Ford_Mustang_GT', 'Ford Mustang GT')" style="background-image: url('./models_3/FordMustang/Ford_Mustang_GT.png');"></button>
 
       <!-- Eleventh Model -->
       <button class="slide" onclick="switchSrc(this, 'models_2/Ferrari', '2010_ferrari_599', '2010 Ferrari 599')" style="background-image: url('./models_2/Ferrari/2010_ferrari_599.png');"></button>
@@ -339,7 +339,7 @@
       <button class="slide" onclick="switchSrc(this, 'models_2/BentleyContinental', '2020_bentley_continental_gt', '2020 Bentley Continental GT')" style="background-image: url('./models_2/BentleyContinental/2020_bentley_continental_gt.png');"></button>
 
       <!-- Thirteen Model -->
-      <button class="slide" onclick="switchSrc(this, 'models_3/Volkswagen', '2021_volkswagen_t-cross', '2021 Volkswagen T-Cross')" style="background-image: url('./models_3/Volkswagen/2021_volkswagen_t-cross.png');"></button>
+      <button class="slide" onclick="switchSrc(this, 'models_3/Chevrolet', 'chevrolet_silverado', 'Chevrolet Silverado EV RST')" style="background-image: url('./models_3/Chevrolet/chevrolet_silverado.png');"></button>
 
     </div>
   </div>
@@ -349,7 +349,6 @@
         class="transparent">
   <img src="./assets/AR_Placer.png" width="40px" height="40px" class="ar-icon">
 </button>
-
 
   </model-viewer>
 
@@ -368,9 +367,9 @@ const infoText = {
     title: "2015 BMW X6",
     description: "• A mid-size luxury crossover SUV with a bold look.\n• Combines dynamic performance and a spacious interior."
   },
-  "Hyundai Santa Fe 2020": {
-    title: "2020 Hyundai Santa Fe",
-    description: "• A family-friendly SUV with advanced safety features.\n• Offers great fuel efficiency and comfort."
+  "BYD Yangwang U8": {
+   "title": "2023 BYD Yangwang U8",
+   "description": "• A luxury electric SUV with off-road capabilities.\n• Features cutting-edge technology."
   },
   "Mercedes Benz 2020": {
     title: "2020 Mercedes Benz G",
@@ -396,9 +395,9 @@ const infoText = {
    title: "2019 Bugatti La Voiture Noire",
    description: "• A luxury hypercar with unmatched power.\n• Powered by a quad-turbo W-16 engine."
   },
-  "Rolls Royce Ghost": {
-   title: "2020 Rolls Royce Ghost",
-   description: "• Ultimate luxury with a powerful V12 engine.\n• Exquisite comfort and an unmatched presence."
+  "Ford Mustang GT": {
+   title: "2025 Ford Mustang GT",
+   description: "• High-performance muscle car with bold styling.\n• Powered by a robust V8 engine for thrilling drives."
   },
   "2010 Ferrari 599": {
    title: "2010 Ferrari 599",
@@ -408,9 +407,9 @@ const infoText = {
    title: "2020 Bentley Continental GT",
    description: "• A masterpiece of luxury and power.\n• Boasts a 6.0L W12 engine for exhilarating speed"
   },
-  "2021 Volkswagen T-Cross": {
-   title: "2021 Volkswagen T Cross",
-   description: "• A compact SUV offering versatility and style.\n• Features a turbocharged engine."
+  "Chevrolet Silverado EV RST": {
+   "title": "2024 Chevrolet Silverado EV RST",
+   "description": "• All-electric performance with instant torque. \n• Long-range capability and fast charging."
   }
 
 };
@@ -482,3 +481,5 @@ document.querySelector(".slider").addEventListener("beforexrselect", (ev) => {
 </script>
 </body>
 </html>
+
+<!-- Change = 3,10,13 -->
